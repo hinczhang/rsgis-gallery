@@ -1,0 +1,137 @@
+/* 圆角button组 */
+.button-round-left {
+    border-top-left-radius: 14px !important;
+    border-bottom-left-radius: 14px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-right: -1px solid white !important;
+}
+
+.button-round-right {
+    border-top-right-radius: 14px !important;
+    border-bottom-right-radius: 14px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-left: -1px solid white !important;
+}
+
+/* NavigationBar css */
+.el-header {
+    padding:0px !important;
+}
+
+.bar .el-button{
+    padding: 4px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    margin-bottom:-2px;
+    border-left: 0px !important;
+ }
+ 
+ .bar .el-input__inner {
+     border-radius: 14px;
+     border-top-right-radius: 0px !important;
+     border-bottom-right-radius: 0px !important;
+ }
+ 
+.bar .el-submenu__title:hover {
+    background-color: rgba(255,255,255,0.7) !important;
+}
+
+.bar .el-menu-item{
+    background-color: rgba(255,255,255,0) !important;
+}
+
+.bar .el-submenu__title{
+    background-color: rgba(255,255,255,0) !important;
+}
+
+
+/* ChangeInfo css */
+.change .el-tabs__item {
+    padding:0px 40px;
+    text-align: center;
+    margin:20px 0px !important;
+
+}
+/*
+.change .el-tabs__nav {
+    
+}
+
+*/
+.change .is-active{
+    border-left: 3px solid rgba(90,159,248,0.8) !important;
+}
+
+
+
+/* UserItems css*/
+.userMain .selectinput {
+    width:60%;
+    margin-top:40px;
+    padding-bottom:40px;
+    height:40px;
+    border-radius: 50% !important;
+}
+
+.userMain .selectinput .el-input__inner {
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.userMain .selectbutton {
+    margin-bottom: 3px;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.userMain .withoutright {
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+}
+
+/* homeAside css*/
+.homeAside {
+    overflow: visible !important;
+}
+
+.homeAside .el-row {
+    min-width: 200px;
+    height: 50px;
+}
+
+.homeAside .el-tag {
+    min-width:140px !important;
+    margin-top:9px !important;
+    margin-bottom: 9px !important;
+}
+
+/* homeMain css*/
+.homeMain {
+    overflow: visible !important;
+}
+
+.el-loading-spinner{
+    margin-top: 0px !important;
+}
+
+.homeMain .el-button--text {
+    font-size: 10px !important;
+    color: rgba(151,158,165,0.9) !important;
+}
+
+.homeMain .el-card__body{
+    width: 200px !important;
+    padding: 0px !important;
+}
+
+.admin-grade .el-table__body .warning-row{
+    background: rgb(252, 245, 232);
+  }
+
+.admin-grade .el-table__body .success-row {
+    background: rgb(242,249,236);
+  }
